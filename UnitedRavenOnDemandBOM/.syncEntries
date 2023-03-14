@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="SrinivasReddy" url="https://odm-cns.dev.bay.aws.ual.com/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="CF44C8F30F3622A23AF6BE4604AA0A3A" targetCS="2785692706" type="B2XMapping" uuid="b0c3ff11-28d6-4cbd-9651-bc20b48c685c"/>
+<entry baseType="BusinessObjectModel" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="EDABEFF43514DC93AFDFC64EC55D09AA" targetCS="2785692706" type="BusinessObjectModel" uuid="f191a5f2-7796-4413-bb25-fac5c9b2e055"/>
+<entry baseType="Resource" checksum="2294319399" projectName="UnitedRavenOnDemandBOM" qualifiedName="xom-libraries/UnitedRavenOnDemandXOM.zip" sourceCS="10D5415C0A70503EB6F725A46E4FF857" targetCS="2294319399" type="Resource" uuid="xom-libraries/UnitedRavenOnDemandXOM.zip"/>
+<entry baseType="RuleProjectInfo" checksum="3032508566" projectName="UnitedRavenOnDemandBOM" qualifiedName="UnitedRavenOnDemandBOM" sourceCS="51987E2E9A2ED840F090BAB74999A903" targetCS="3032508566" type="RuleProjectInfo" uuid="8026d361-e525-4efc-878d-9409f3adcb1b"/>
+<entry baseType="Vocabulary" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model_en_US" sourceCS="7C1CFF79AFD1A88C4A8D8529C2D0C902" targetCS="2785692706" type="Vocabulary" uuid="39bd46d3-f795-4514-985e-3200276ffb65"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="D2567889A2662AA9437DF5A7D95BC043" targetCS="2785692706" type="B2XMapping" uuid="c68a0aec-4118-4363-8835-8fe545b35361"/>
+<entry baseType="B2XMapping" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="FFC3F2DB41F4FA6D938C9274D9BF9B17" targetCS="2785692706" type="B2XMapping" uuid="06f0e1a0-ef5f-4f40-b8ce-f76a3dd3a05a"/>
+<entry baseType="BusinessObjectModel" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="A3E1393A5248F1044DE70FF5B3304802" targetCS="2785692706" type="BusinessObjectModel" uuid="42b50264-e320-4f6a-9b3c-824d10f793b6"/>
+<entry baseType="BusinessObjectModel" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model" sourceCS="75AA80411EDF7A7895D4065D3D605813" targetCS="2785692706" type="BusinessObjectModel" uuid="c4b19bcf-5506-4409-9f32-dba188b9be65"/>
+<entry baseType="Resource" checksum="2294319399" projectName="UnitedRavenOnDemandBOM" qualifiedName="xom-libraries/UnitedRavenOnDemandXOM.zip" sourceCS="836874DFEFF0419233E4A6CA2BBC895C" targetCS="2294319399" type="Resource" uuid="xom-libraries/UnitedRavenOnDemandXOM.zip"/>
+<entry baseType="RuleProjectInfo" checksum="2167267013" projectName="UnitedRavenOnDemandBOM" qualifiedName="UnitedRavenOnDemandBOM" sourceCS="B4AF0A51FA48B2F52BC6E76048B0B7E9" targetCS="2167267013" type="RuleProjectInfo" uuid="1960a94c-4e77-488f-bf23-d35a566abac3"/>
+<entry baseType="RuleProjectInfo" checksum="614878923" projectName="UnitedRavenOnDemandBOM" qualifiedName="UnitedRavenOnDemandBOM" sourceCS="F40113C605A233F9FC0233CD7E41FBD6" targetCS="614878923" type="RuleProjectInfo" uuid="05c714bf-a8e9-46db-b6a1-4bc26c97e9d1"/>
+<entry baseType="Vocabulary" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model_en_US" sourceCS="429F81B3E74300BC6CB558B36FCEF18A" targetCS="2785692706" type="Vocabulary" uuid="3c5047cb-b58f-40db-a239-4c322e409e6a"/>
+<entry baseType="Vocabulary" checksum="2785692706" projectName="UnitedRavenOnDemandBOM" qualifiedName="model_en_US" sourceCS="435F650950DB23BB5499036B87A28394" targetCS="2785692706" type="Vocabulary" uuid="f1527b17-84e9-4ebd-90f9-184deea52142"/>
+</teamserver>
+</teamservers>

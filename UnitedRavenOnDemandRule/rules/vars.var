@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>9031ac9c-780f-451b-8d21-e154bd9a2f2b</uuid>
+  <variables name="OnDemandApplicationConfigurationRequest" type="com.united.odac.OnDemandApplicationConfigurationRequest" initialValue="" verbalization="OnDemand Application Configuration Request"/>
+  <variables name="OnDemandApplicationConfigurationResponse" type="com.united.odac.OnDemandApplicationConfigurationResponse" initialValue="new com.united.odac.OnDemandApplicationConfigurationResponse()" verbalization="OnDemand Application Configuration Response"/>
+</ilog.rules.studio.model.base:VariableSet>

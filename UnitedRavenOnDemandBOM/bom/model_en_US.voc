@@ -1,0 +1,38 @@
+# Vocabulary Properties
+uuid = 298a2ea0-41b3-4b83-bcab-6f6725dfedaf
+
+# com.united.odac.OnDemandApplicationConfigurationRequest
+com.united.odac.OnDemandApplicationConfigurationRequest#concept.label = on demand application configuration request
+com.united.odac.OnDemandApplicationConfigurationRequest.configName#phrase.action = set the config name of {this} to {config name}
+com.united.odac.OnDemandApplicationConfigurationRequest.configName#phrase.navigation = {config name} of {this}
+com.united.odac.OnDemandApplicationConfigurationRequest.eventType#phrase.action = set the event type of {this} to {event type}
+com.united.odac.OnDemandApplicationConfigurationRequest.eventType#phrase.navigation = {event type} of {this}
+
+# com.united.odac.OnDemandApplicationConfigurationResponse
+com.united.odac.OnDemandApplicationConfigurationResponse#concept.label = on demand application configuration response
+com.united.odac.OnDemandApplicationConfigurationResponse.deliveryMode#phrase.action = set the delivery mode of {this} to {delivery mode}
+com.united.odac.OnDemandApplicationConfigurationResponse.deliveryMode#phrase.navigation = {delivery mode} of {this}
+com.united.odac.OnDemandApplicationConfigurationResponse.notificationThreshold#phrase.action = set the notification threshold of {this} to {notification threshold}
+com.united.odac.OnDemandApplicationConfigurationResponse.notificationThreshold#phrase.navigation = {notification threshold} of {this}
+
+# com.united.odt.OnDemandTemplateRequest
+com.united.odt.OnDemandTemplateRequest#concept.label = on demand template request
+com.united.odt.OnDemandTemplateRequest.countryCode#phrase.action = set the country code of {this} to {country code}
+com.united.odt.OnDemandTemplateRequest.countryCode#phrase.navigation = {country code} of {this}
+com.united.odt.OnDemandTemplateRequest.customerId#phrase.action = set the customer id of {this} to {customer id}
+com.united.odt.OnDemandTemplateRequest.customerId#phrase.navigation = {customer id} of {this}
+com.united.odt.OnDemandTemplateRequest.employeeId#phrase.action = set the employee id of {this} to {employee id}
+com.united.odt.OnDemandTemplateRequest.employeeId#phrase.navigation = {employee id} of {this}
+com.united.odt.OnDemandTemplateRequest.eventType#phrase.action = set the event type of {this} to {event type}
+com.united.odt.OnDemandTemplateRequest.eventType#phrase.navigation = {event type} of {this}
+com.united.odt.OnDemandTemplateRequest.mpAccountID#phrase.action = set the mp account ID of {this} to {mp account ID}
+com.united.odt.OnDemandTemplateRequest.mpAccountID#phrase.navigation = {mp account ID} of {this}
+com.united.odt.OnDemandTemplateRequest.mpLevel#phrase.action = set the mp level of {this} to {mp level}
+com.united.odt.OnDemandTemplateRequest.mpLevel#phrase.navigation = {mp level} of {this}
+
+# com.united.odt.OnDemandTemplateResponse
+com.united.odt.OnDemandTemplateResponse#concept.label = on demand template response
+com.united.odt.OnDemandTemplateResponse.templateName#phrase.action = set the template name of {this} to {template name}
+com.united.odt.OnDemandTemplateResponse.templateName#phrase.navigation = {template name} of {this}
+com.united.odt.OnDemandTemplateResponse.templateVersion#phrase.action = set the template version of {this} to {template version}
+com.united.odt.OnDemandTemplateResponse.templateVersion#phrase.navigation = {template version} of {this}

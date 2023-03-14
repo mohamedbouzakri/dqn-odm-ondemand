@@ -1,0 +1,42 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/UnitedRavenOnDemandBOM//UnitedRavenOnDemandXOM"
+property uuid "e9d71128-6540-483a-bc75-11c817a05649"
+package com.united.odac;
+
+
+public class OnDemandApplicationConfigurationRequest
+{
+    public string configName;
+    public string eventType;
+    public OnDemandApplicationConfigurationRequest();
+}
+
+public class OnDemandApplicationConfigurationResponse
+{
+    public string deliveryMode;
+    public string notificationThreshold;
+    public OnDemandApplicationConfigurationResponse();
+}
+
+package com.united.odt;
+
+
+public class OnDemandTemplateRequest
+{
+    public string countryCode;
+    public string customerId;
+    public string employeeId;
+    public string eventType;
+    public string mpAccountID;
+    public string mpLevel;
+    public OnDemandTemplateRequest();
+}
+
+public class OnDemandTemplateResponse
+{
+    public string templateName;
+    public string templateVersion;
+    public OnDemandTemplateResponse();
+}
+

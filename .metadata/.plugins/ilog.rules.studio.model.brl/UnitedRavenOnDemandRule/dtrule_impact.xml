@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.united.odt.OnDemandTemplateResponse/templateVersion/SETTER#0">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+        </vocElt>
+        <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest/eventType/GETTER#0">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+        <vocElt id="com.united.odt.OnDemandTemplateResponse">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+        </vocElt>
+        <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+        <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+        <vocElt id="com.united.odt.OnDemandTemplateRequest/eventType/GETTER#0">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+        </vocElt>
+        <vocElt id="com.united.odt.OnDemandTemplateRequest">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+        </vocElt>
+        <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse/deliveryMode/SETTER#0">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+        <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse/notificationThreshold/SETTER#0">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa">
+            <vocElt id="com.united.odt.OnDemandTemplateResponse/templateVersion/SETTER#0"/>
+            <vocElt id="com.united.odt.OnDemandTemplateResponse"/>
+            <vocElt id="com.united.odt.OnDemandTemplateRequest/eventType/GETTER#0"/>
+            <vocElt id="com.united.odt.OnDemandTemplateRequest"/>
+        </rule>
+        <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece">
+            <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest/eventType/GETTER#0"/>
+            <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest"/>
+            <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse"/>
+            <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse/deliveryMode/SETTER#0"/>
+            <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse/notificationThreshold/SETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="OnDemandApplicationConfigurationRequest">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </param>
+        <param id="OnDemandApplicationConfigurationResponse">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece">
+            <param id="OnDemandApplicationConfigurationRequest"/>
+            <param id="OnDemandApplicationConfigurationResponse"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="9031ac9c-780f-451b-8d21-e154bd9a2f2b">
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/UnitedRavenOnDemandBOM/bom/model_en_US.voc" id="298a2ea0-41b3-4b83-bcab-6f6725dfedaf">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+            <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/UnitedRavenOnDemandRule/rules/ApplicationConfiguration/Common/ApplicationConfiguration.dta" id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        <resource file="/UnitedRavenOnDemandRule/rules/vars.var" id="9031ac9c-780f-451b-8d21-e154bd9a2f2b"/>
+        <resource file="/UnitedRavenOnDemandRule/rules/Template/Common/Template.dta" id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
+    </resourceTable>
+</impactTables>
