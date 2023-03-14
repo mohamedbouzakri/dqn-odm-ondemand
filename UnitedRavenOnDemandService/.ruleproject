@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" buildMode="DecisionEngine" isADecisionService="true" migrationFlag="3">
   <name>UnitedRavenOnDemandService</name>
-  <uuid>7c26242d-12f7-432b-ab04-fc8e64f03474</uuid>
+  <uuid>f5bb53da-4872-4a8a-b120-d7e42c02eb34</uuid>
   <outputLocation>output</outputLocation>
   <categories>any</categories>
   <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
@@ -10,7 +10,7 @@
   </paths>
   <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
     <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="UnitedRavenOnDemandRule" url="platform:/UnitedRavenOnDemandRule" kind="RULE_PROJECT">
-      <ruleProject href="UnitedRavenOnDemandRule#0855a167-b219-4ac9-949c-f24a2a33efd3"/>
+      <ruleProject href="UnitedRavenOnDemandRule#7948b2d9-70e7-4581-87cc-ad00dd2d345e"/>
     </entries>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">

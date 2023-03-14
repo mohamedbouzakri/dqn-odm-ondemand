@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="RavenOnDemand" managingXom="true">
   <name>PROD_AppConfig_UnitedRavenOnDemandDeployConfig</name>
-  <uuid>fa6a7393-ee47-480e-a5c2-c02053a3c822</uuid>
+  <uuid>75b78407-3964-443f-b5f1-6beef7c53a8f</uuid>
   <operations operationName="UnitedRavenOnDemandAppConfigOperation.dop">
-    <operation href="UnitedRavenOnDemandAppConfigOperation.dop#12fc900f-3a35-446d-99ef-87a582c089a4"/>
+    <operation href="UnitedRavenOnDemandAppConfigOperation.dop#8b0d5f33-0d0b-47d6-ab0c-5979bf46d77f"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>

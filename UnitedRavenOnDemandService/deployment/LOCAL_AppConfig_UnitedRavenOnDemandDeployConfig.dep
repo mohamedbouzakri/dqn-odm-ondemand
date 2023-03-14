@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="RavenOnDemand" managingXom="true">
   <name>LOCAL_AppConfig_UnitedRavenOnDemandDeployConfig</name>
-  <uuid>4d41d5d9-ec83-4cec-9cd1-9fc235615ccd</uuid>
+  <uuid>ddd0c7ea-5708-4ae5-af7f-dc3f2f67af17</uuid>
   <targets label="Local"/>
   <operations operationName="UnitedRavenOnDemandAppConfigOperation.dop">
-    <operation href="UnitedRavenOnDemandAppConfigOperation.dop#12fc900f-3a35-446d-99ef-87a582c089a4"/>
+    <operation href="UnitedRavenOnDemandAppConfigOperation.dop#8b0d5f33-0d0b-47d6-ab0c-5979bf46d77f"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>

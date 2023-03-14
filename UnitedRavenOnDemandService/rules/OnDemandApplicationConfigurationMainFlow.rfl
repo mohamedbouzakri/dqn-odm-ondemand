@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
   <name>OnDemandApplicationConfigurationMainFlow</name>
-  <uuid>0f68027a-f43e-48de-8c1b-8dbd613ce4ad</uuid>
+  <uuid>3158eef4-7c80-41d3-9da8-b0622235ab29</uuid>
   <locale>en_US</locale>
   <categories>any</categories>
   <rfModel>

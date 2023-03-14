@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="AppConfig" usingRuleflow="true" ruleflowName="OnDemandApplicationConfigurationMainFlow" targetRuleProjectName="UnitedRavenOnDemandService">
   <name>UnitedRavenOnDemandAppConfigOperation</name>
-  <uuid>12fc900f-3a35-446d-99ef-87a582c089a4</uuid>
+  <uuid>8b0d5f33-0d0b-47d6-ab0c-5979bf46d77f</uuid>
   <referencedVariables variableName="OnDemandApplicationConfigurationRequest" variableSetName="vars">
     <variableSet href="../../UnitedRavenOnDemandRule/rules/vars.var#57d56119-4940-42f2-a9ff-96c8166b1725"/>
   </referencedVariables>
   <referencedVariables variableName="OnDemandApplicationConfigurationResponse" variableSetName="vars" direction="OUT">
     <variableSet href="../../UnitedRavenOnDemandRule/rules/vars.var#57d56119-4940-42f2-a9ff-96c8166b1725"/>
   </referencedVariables>
-  <ruleflow href="../rules/OnDemandApplicationConfigurationMainFlow.rfl#0f68027a-f43e-48de-8c1b-8dbd613ce4ad"/>
+  <ruleflow href="../rules/OnDemandApplicationConfigurationMainFlow.rfl#3158eef4-7c80-41d3-9da8-b0622235ab29"/>
   <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="ODMSOp_extractor" validator="Default Validator"/>
-  <targetRuleProject href="../../UnitedRavenOnDemandService#7c26242d-12f7-432b-ab04-fc8e64f03474"/>
+  <targetRuleProject href="../../UnitedRavenOnDemandService#f5bb53da-4872-4a8a-b120-d7e42c02eb34"/>
 </com.ibm.rules.studio.model.decisionservice:Operation>
