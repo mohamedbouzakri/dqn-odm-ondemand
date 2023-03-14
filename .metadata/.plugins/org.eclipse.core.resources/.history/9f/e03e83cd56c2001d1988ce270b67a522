@@ -18,6 +18,16 @@
             <Text><![CDATA[the event type of 'Template Req' is <a string>]]></Text>
           </ExpressionDefinition>
         </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text/>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text/>
+          </ExpressionDefinition>
+        </ConditionDefinition>
       </ConditionDefinitions>
       <ActionDefinitions>
         <ActionDefinition Id="A0">
@@ -30,14 +40,18 @@
     <Contents>
       <Partition DefId="C0">
         <Condition>
-          <Expression>
-            <Param><![CDATA["Raven_ODMS"]]></Param>
-          </Expression>
+          <Expression/>
           <ActionSet>
             <Action DefId="A0">
-              <Expression>
-                <Param><![CDATA["ODM1"]]></Param>
-              </Expression>
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
             </Action>
           </ActionSet>
         </Condition>
@@ -191,9 +205,11 @@
   <Resources DefaultLocale="en_US">
     <ResourceSet Locale="en_US">
       <Data Name="Definitions(A0)#HeaderText"><![CDATA[Set The Template Version]]></Data>
-      <Data Name="Definitions(A0)#Width"><![CDATA[692]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[455]]></Data>
       <Data Name="Definitions(C0)#HeaderText"><![CDATA[The Event Type]]></Data>
-      <Data Name="Definitions(C0)#Width"><![CDATA[692]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[455]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[455]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[456]]></Data>
     </ResourceSet>
   </Resources>
 </DT></definition>

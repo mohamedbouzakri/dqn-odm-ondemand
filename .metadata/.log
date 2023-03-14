@@ -1,0 +1,202 @@
+!SESSION 2023-03-14 10:53:09.467 -----------------------------------------------
+eclipse.buildId=
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Windows 10 amd64-64 Compressed References 20170722_357405 (JIT enabled, AOT enabled)
+J9VM - R28_20170722_0201_B357405
+JIT  - tr.r14.java_20170722_357405
+GC   - R28_20170722_0201_B357405_CMPRSS
+J9CL - 20170722_357405
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+Command-line arguments:  -data C:\Users\sanaa.harmach\Documents\GitHub\Ondemandservice\dqn-odm-ondemand -os win32 -ws win32 -arch x86_64 -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-03-14 10:53:18.537
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.help.base 4 0 2023-03-14 10:54:21.902
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:103)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:785)
+
+!ENTRY org.eclipse.help.base 4 0 2023-03-14 10:54:22.526
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.hasAnchor(TocAssembler.java:189)
+	at org.eclipse.help.internal.toc.TocAssembler.hasValidLinkTo(TocAssembler.java:213)
+	at org.eclipse.help.internal.toc.TocAssembler.getBooks(TocAssembler.java:100)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:75)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:785)
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:30.267
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:37.342
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.216
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.255
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.307
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.358
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.413
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.469
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.525
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.585
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.639
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.692
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.745
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.783
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:42.825
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.050
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.112
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.162
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.213
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.265
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.321
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:55:44.371
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.665
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.707
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.745
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.790
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.834
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:01.879
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:04.943
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:04.975
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:05.007
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:05.044
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:05.082
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:05.122
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:05.161
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.553
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.599
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.641
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.679
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.717
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.753
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:12.786
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:27.104
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}
+
+!ENTRY org.eclipse.ui 4 4 2023-03-14 10:56:28.723
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.delete: {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@64720327)} vs {ActionHandler(ilog.rules.studio.dteditor.IlrDTEditorContributor$GlobalAction@34431823)}

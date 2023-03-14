@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><impactTables>
     <ruleTable>
-        <vocElt id="com.united.odt.OnDemandTemplateResponse/templateVersion/SETTER#0">
-            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
-        </vocElt>
         <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest/eventType/GETTER#0">
             <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
         </vocElt>
-        <vocElt id="com.united.odt.OnDemandTemplateResponse">
+        <vocElt id="com.united.odt.OnDemandTemplateResponse/templateVersion/SETTER#0">
             <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
         </vocElt>
         <vocElt id="com.united.odac.OnDemandApplicationConfigurationRequest">
@@ -14,6 +11,9 @@
         </vocElt>
         <vocElt id="com.united.odac.OnDemandApplicationConfigurationResponse">
             <rule id="68da2f68-e6e2-41b2-8e19-d5b6825e1ece"/>
+        </vocElt>
+        <vocElt id="com.united.odt.OnDemandTemplateResponse">
+            <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
         </vocElt>
         <vocElt id="com.united.odt.OnDemandTemplateRequest/eventType/GETTER#0">
             <rule id="0a6c2bc6-9091-41c3-80bc-459ef99447fa"/>
